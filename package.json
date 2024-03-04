@@ -1,0 +1,23 @@
+{
+  "homepage": "https://anjalikray.github.io/Timer-game/",
+  "name": "refs-portals-start",
+  "version": "0.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.1.1",
+    "vite": "^4.3.9"
+  },
+  "keywords": [],
+  "description": ""
+}
